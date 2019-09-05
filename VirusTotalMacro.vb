@@ -112,15 +112,3 @@ Else
 MsgBox ("URL: " & url & vbCrLf & Replace(relInfo, """", ""))
 End If
 End Function
-
-Function handle(resp As String)
-Dim splitter As Variant
-Dim relInfo As String
-splitter = split(resp, ",")
-For Each spot In splitter
-    If InStr(spot, "positives") > 0 Then
-    relInfo = spot
-    End If
-Next
-End Function
-
