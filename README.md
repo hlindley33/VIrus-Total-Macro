@@ -5,6 +5,9 @@ A macro written to check all the base URLs within an email and submit them to Vi
 - Visual Basic for Applications
 - Microsoft Office Object Library
 - Microsoft Winhttp Services reference
+### Other Requirements
+- Virus Total Account (to receive API Key)
+
 ### Current Scope
 This was a quick side project and that can be cleaned and made more efficient.
 The eventual goal would be to build an add-in
